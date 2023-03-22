@@ -35,7 +35,7 @@ export default function Home({ allPostsData }) {
 
           <a href="https://jairojobs.com/company" target="_blank" className={styles.card}>
             <h3>Companies &rarr;</h3>
-            <p>Learn about JairoJobs Companies Detailed Information.</p>
+            <p>Learn about Companies Detailed Information.</p>
           </a>
 
           <a
