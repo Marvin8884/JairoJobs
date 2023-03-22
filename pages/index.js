@@ -65,7 +65,6 @@ export default function Home({ allPostsData }) {
       <footer>
       <a
           href="/posts/pre-rendering"
-          target="_blank"
           rel="noopener noreferrer"
         >
           My Profile{' '}
