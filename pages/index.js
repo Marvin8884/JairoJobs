@@ -2,6 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
 import { getSortedPostsData } from '../lib/posts';
+import Image from 'next/image'
 
 
 export async function getStaticProps() {
@@ -135,6 +136,20 @@ export default function Home({ allPostsData }) {
           box-sizing: border-box;
         }
       `}</style>
+
+      <div style={{
+        zIndex: -1,
+        position: "fixed",
+        width: "100vw",
+        height: "100vh"
+      }}>
+      <Image
+        src="/dagat.jpg"
+        alt="Dagat"
+        layout="fill"
+        objectFit='cover'
+        />
+        </div>
     </div>
   )
 }
